@@ -1,0 +1,55 @@
+body{
+    color: #fff;
+    background-color: #302F2F;
+    text-align: center;
+}
+
+h2{
+    font-family: "cinzel";
+    font-weight: 300;
+    font-size: 35px;
+    margin: 20px;
+    text-decoration: underline;
+    text-decoration-color: #B22222;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    padding: 10px;
+}
+
+p{
+    font-family: "cinzel";
+    font-weight: 100;
+    padding: 50px;
+    font-size: 17px;
+    text-align: justify;
+    margin: 0 100px 0 100px;
+    line-height: 1.5;
+}
+
+.img__conteiner{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+video{
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px #B22222;
+    margin: 10px;
+}
