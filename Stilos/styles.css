@@ -73,8 +73,9 @@ a{
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
+    font-size: 26px;
 }
 
 a:hover{

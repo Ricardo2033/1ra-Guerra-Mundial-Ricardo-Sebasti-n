@@ -1,0 +1,50 @@
+body{
+    font-family: "cinzel";
+    background-color:#063305;
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    font-family: "cinzel";
+    font-weight: 100;
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 100px 0 100px;
+    line-height: 1.5;
+}
+
+h2{
+    text-decoration: underline;
+    text-decoration-color: #b22222;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    font-size: 25px;
+}
+
+div{
+    padding: 20px;
+}
+
+img{
+    width: 540px;
+    height: 430px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.boton_de_regreso{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    border: 3px solid #b22222;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.boton_de_regreso:hover{
+    background-color: #b22222;
+    transition: all 0.3s ease-in-out;
+}

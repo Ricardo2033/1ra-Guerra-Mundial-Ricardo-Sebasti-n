@@ -53,3 +53,21 @@ video{
     box-shadow: 0 0 10px #B22222;
     margin: 10px;
 }
+
+.boton__de__regreso{
+    text-decoration: none;
+    position: fixed;
+    z-index: 5;
+    top: 20px;
+    right: 20px;
+    font-family: "cinzel";
+    color: #000;
+    border: 3px solid #B22222;
+    padding: 10px 20px;
+}
+
+.boton__de__regreso:hover{
+    background-color: #B22222;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
