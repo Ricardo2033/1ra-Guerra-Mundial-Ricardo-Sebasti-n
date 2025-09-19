@@ -45,8 +45,8 @@ img:hover{
 }
 
 video{
-    width: 95%;
-    height: 95%;
+    width: 75%;
+    height: 75%;
     border-radius: 20px;
     margin: 10px;
     box-shadow: 0 0 10px #B22222;
@@ -83,6 +83,18 @@ a{
 a:hover{
     background-color: #B22222;
     transition: all 0.3s ease-in-out;
+}
+
+footer{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    font-family: "cinzel";
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 2px;
+    line-height: 1.5;
 }
 
 /* Media query para pantallas pequeñas */
