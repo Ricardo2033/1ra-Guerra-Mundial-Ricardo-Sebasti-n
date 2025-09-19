@@ -8,12 +8,14 @@ body{
 p{
     font-family: "cinzel";
     font-weight: 100;
-    padding: 20px;
-    font-size: 15px;
-    text-align: justify;
+    padding: 30px 30px;
+    font-size: 18px;
     margin: 0 100px 0 100px;
     line-height: 1.5;
+    ;
 }
+
+
 
 h2{
     text-decoration: underline;
@@ -30,16 +32,14 @@ div{
 img{
     width: 540px;
     height: 430px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 40px;
 }
 
 .boton_de_regreso{
     position: fixed;
-    top: 20px;
-    right: 20px;
-    color: #fff;
-    border: 3px solid #b22222;
+    top: 0;
+    right: 0;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -47,4 +47,65 @@ img{
 .boton_de_regreso:hover{
     background-color: #b22222;
     transition: all 0.3s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #b22222;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: #b22222;
+    transition: all 0.3s ease-in-out;;
+}
+.footer{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    margin-top: 40px;
+    line-height: 1px;
+}
+
+.enlaze__github{
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+.enlaze__github:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+    /* Media query para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 8px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        padding: 5px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        margin: 0 10px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .footer {
+        font-size: 10px;
+        padding: 10px;
+    }
 }

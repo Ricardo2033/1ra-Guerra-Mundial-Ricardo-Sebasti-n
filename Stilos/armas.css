@@ -20,7 +20,7 @@ p{
     font-family: "cinzel";
     font-weight: 100;
     padding: 50px;
-    font-size: 17px;
+    font-size: 19px;
     text-align: justify;
     margin: 0 100px 0 100px;
     line-height: 1.5;
@@ -36,8 +36,7 @@ p{
 img{
     width: 400px;
     height: 300px;
-    margin: 10px;
-    border-radius: 20px;
+    padding: 30px;
 }
 
 img:hover{
@@ -70,4 +69,60 @@ video{
     background-color: #B22222;
     color: #fff;
     transition: all 0.3s ease-in-out;
+}
+
+a{
+    font-family: "cinzel";
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #B22222;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: #B22222;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Media query para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 8px;
+    }
+    h2 {
+        font-size: 22px;
+        padding: 5px;
+    }
+    p {
+        margin: 0 10px;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+    .img__conteiner {
+        flex-direction: column;
+        padding: 5px;
+    }
+    img {
+        width: 95%;
+        height: auto;
+        max-width: 300px;
+        margin: 5px auto;
+    }
+    video {
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .boton__de__regreso {
+        padding: 8px 12px;
+        font-size: 14px;
+        top: 10px;
+        right: 10px;
+    }
+    a {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
 }

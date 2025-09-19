@@ -78,6 +78,33 @@ a{
     font-size: 26px;
 }
 
+footer{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    font-family: "cinzel";
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.enlazes__github{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.enlazes__github:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
 a:hover{
     background-color: white;
     color: black;
