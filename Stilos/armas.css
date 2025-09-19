@@ -137,4 +137,13 @@ footer{
         padding: 4px 8px;
         font-size: 14px;
     }
+    
+.enlaze__github{
+    color: #000;
+    font-weight: bold;
+}
+
+.enlaze__github:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
 }
